@@ -2,6 +2,7 @@
 
 GetNgram package consists of GetNgram.java, GetNgramInputFormat.java, and GetNgramInputReader.java .
 It also needs some [Lemur](https://www.lemurproject.org/) codes and .java files under the `src/yayamamo` directory if [stemming](https://lemur.sourceforge.io/indri/classindri_1_1parse_1_1Porter__Stemmer.html) is needed.
+
 Hadoop version is 1.2.1.
 
 `$ hadoop jar GetNgram.jar jp.dbcls.hadoop.GetNgram [options] <Source Directory> <Target Directory>`
